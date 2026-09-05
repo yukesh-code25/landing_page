@@ -1,16 +1,116 @@
-# React + Vite
+# 🍽️ Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive restaurant landing page built with **React**, focused on smooth animations, clean UI, and a polished user experience across desktop and mobile devices.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 **[View Live Website](https://landing-page-eight-pink-16.vercel.app/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📱 Fully responsive design
+* 🖥️ Optimized for desktop and mobile screens
+* 🎨 Modern and clean restaurant UI
+* ✨ Smooth scroll experience using Lenis
+* 🎬 Scroll-based animations using Motion
+* 🧩 Reusable React components
+* 📋 Restaurant menu / dishes section
+* ⭐ Testimonials section
+* ❓ FAQ section
+* 📅 Booking / reservation section
+* 📱 Mobile-friendly navigation
+* ⚡ Fast and smooth user experience
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **React.js** – Component-based UI development
+* **JavaScript** – Application logic
+* **Tailwind CSS** – Styling and responsive layouts
+* **Motion** – UI and scroll animations
+* **Lenis** – Smooth scrolling
+* **Vite** – Development and build tooling
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   └── LenisScroll.jsx
+│
+├── section/
+│   ├── HeroSection.jsx
+│   ├── About.jsx
+│   ├── Stats.jsx
+│   ├── dishes.jsx
+│   ├── Features.jsx
+│   ├── BookingProcess.jsx
+│   ├── Timing.jsx
+│   ├── TestimonialSection.jsx
+│   ├── FAQs.jsx
+│   └── CTA.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### 2. Navigate to the project
+
+```bash
+cd <project-folder>
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+## 🎯 What I Practiced
+
+This project helped me practice:
+
+* Building reusable React components
+* Creating responsive layouts
+* Structuring a multi-section landing page
+* Implementing smooth scrolling
+* Working with Motion animations
+* Using `useEffect` for third-party library initialization
+* Creating reusable animation components
+* Improving UI interactions and user experience
+* Making a design work across different screen sizes
+
+## 📱 Responsive Design
+
+The website is designed to provide a consistent experience across:
+
+* 📱 Mobile
+* 📲 Tablet
+* 💻 Laptop
+* 🖥️ Desktop
+
+## 🔗 Links
+
+**Live Demo:**
+https://landing-page-eight-pink-16.vercel.app/
+
+---
+
+⭐ If you like this project, feel free to check out the repository and follow my progress as I continue building and improving my frontend development skills.
