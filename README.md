@@ -60,7 +60,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone (https://github.com/yukesh-code25/landing_page.git)
 ```
 
 ### 2. Navigate to the project
@@ -110,6 +110,9 @@ The website is designed to provide a consistent experience across:
 
 **Live Demo:**
 https://landing-page-eight-pink-16.vercel.app/
+
+**Linkedin:**
+https://www.linkedin.com/in/yukeshr23/
 
 ---
 
